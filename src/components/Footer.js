@@ -1,4 +1,5 @@
 import React from "react"
+import logobottom from "../assets/images/logobottom.png"
 
 const Footer = () => {
   return (
@@ -75,10 +76,7 @@ const Footer = () => {
                 <div class="col-md-12">
                   <div class="bottom">
                     <div class="content-left">
-                      <img
-                        src="https://ducketh.fun/assets/images/logo/logobottom.png"
-                        alt="Image"
-                      />
+                      <img src={logobottom} alt="Image" />
                       <p class="copy-right">
                         DUCK ELON 2023 - ALL rights reserved
                       </p>

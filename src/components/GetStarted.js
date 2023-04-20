@@ -1,4 +1,7 @@
 import React from "react"
+import Step1Image from "../assets/images/get-started-step-1.svg"
+import Step2Image from "../assets/images/get-started-step-2.svg"
+import Step3Image from "../assets/images/get-started-step-3.svg"
 
 const GetStarted = () => {
   return (
@@ -22,15 +25,16 @@ const GetStarted = () => {
                 style={{ animationName: "fadeInUp", visibility: "visible" }}
               >
                 <div class="image">
-                  <img
-                    id="work-5"
-                    src="https://ducketh.fun/assets/images/svg/work-5-light.svg"
-                    alt="Image"
-                  />
+                  <img id="work-5" src={Step1Image} alt="Image" />
                 </div>
                 <h5 class="step">STEP 1</h5>
                 <h4 class="title">
-                  <a href="#" target="_blank" className="text-decoration-none" id="buy-duck-tokens">
+                  <a
+                    href="#"
+                    target="_blank"
+                    className="text-decoration-none"
+                    id="buy-duck-tokens"
+                  >
                     Buy $DUCK Tokens
                   </a>
                 </h4>
@@ -42,11 +46,7 @@ const GetStarted = () => {
                 style={{ animationName: "fadeInUp", visibility: "visible" }}
               >
                 <div class="image">
-                  <img
-                    id="work-4"
-                    src="https://ducketh.fun/assets/images/svg/work-4-light.svg"
-                    alt="Image"
-                  />
+                  <img id="work-4" src={Step2Image} alt="Image" />
                 </div>
                 <h5 class="step">STEP 2</h5>
                 <h4 class="title">HODL</h4>
@@ -58,11 +58,7 @@ const GetStarted = () => {
                 style={{ animationName: "fadeInUp", visibility: "visible" }}
               >
                 <div class="image">
-                  <img
-                    id="work-7"
-                    src="https://ducketh.fun/assets/images/svg/work-7-light.svg"
-                    alt="Image"
-                  />
+                  <img id="work-7" src={Step3Image} alt="Image" />
                 </div>
                 <h5 class="step">STEP 3</h5>
                 <h4 class="title">Enjoy the ride</h4>

@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from "react"
+import LogoImageSlider from "../assets/images/logoimageslider.png"
+import LogoImageSlider1 from "../assets/images/logoimageslider2.png"
+import LogoImageSlider2 from "../assets/images/logoimageslider3.png"
 
 const Swiper = () => {
   const [visible, setVisible] = useState(true)
@@ -90,21 +93,9 @@ const Swiper = () => {
                   </footer>
                 </div>
                 <div class="image">
-                  <img
-                    src="https://ducketh.fun/assets/images/slider/logoimageslider.png"
-                    alt="Image"
-                    class="ani5"
-                  />
-                  <img
-                    src="https://ducketh.fun/assets/images/slider/logoimageslider2.png"
-                    alt="Image"
-                    class="ani4 img-1"
-                  />
-                  <img
-                    src="https://ducketh.fun/assets/images/slider/logoimageslider3.png"
-                    alt="Image"
-                    class="ani3 img-2"
-                  />
+                  <img src={LogoImageSlider} alt="Image" class="ani5" />
+                  <img src={LogoImageSlider1} alt="Image" class="ani4 img-1" />
+                  <img src={LogoImageSlider2} alt="Image" class="ani3 img-2" />
                 </div>
               </div>
             </div>
@@ -186,21 +177,9 @@ const Swiper = () => {
                   </footer>
                 </div>
                 <div class="image">
-                  <img
-                    src="https://ducketh.fun/assets/images/slider/logoimageslider.png"
-                    alt="Image"
-                    class="ani5"
-                  />
-                  <img
-                    src="https://ducketh.fun/assets/images/slider/logoimageslider2.png"
-                    alt="Image"
-                    class="ani4 img-1"
-                  />
-                  <img
-                    src="https://ducketh.fun/assets/images/slider/logoimageslider3.png"
-                    alt="Image"
-                    class="ani3 img-2"
-                  />
+                  <img src={LogoImageSlider} alt="Image" class="ani5" />
+                  <img src={LogoImageSlider1} alt="Image" class="ani4 img-1" />
+                  <img src={LogoImageSlider2} alt="Image" class="ani3 img-2" />
                 </div>
               </div>
             </div>
@@ -282,21 +261,9 @@ const Swiper = () => {
                   </footer>
                 </div>
                 <div class="image">
-                  <img
-                    src="https://ducketh.fun/assets/images/slider/logoimageslider.png"
-                    alt="Image"
-                    class="ani5"
-                  />
-                  <img
-                    src="https://ducketh.fun/assets/images/slider/logoimageslider2.png"
-                    alt="Image"
-                    class="ani4 img-1"
-                  />
-                  <img
-                    src="https://ducketh.fun/assets/images/slider/logoimageslider3.png"
-                    alt="Image"
-                    class="ani3 img-2"
-                  />
+                  <img src={LogoImageSlider} alt="Image" class="ani5" />
+                  <img src={LogoImageSlider1} alt="Image" class="ani4 img-1" />
+                  <img src={LogoImageSlider2} alt="Image" class="ani3 img-2" />
                 </div>
               </div>
             </div>

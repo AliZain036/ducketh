@@ -10,6 +10,8 @@ import Footer from "./components/Footer"
 import Roadmap from "./components/Roadmap"
 import FAQ from "./components/FAQ"
 import { useEffect, useState } from "react"
+import ETweet1 from "./assets/images/e-twite1.png"
+import ETweet2 from "./assets/images/e-twite2.png"
 
 function App() {
   const [showItem, setShowItem] = useState(false)
@@ -33,14 +35,8 @@ function App() {
         id="elone"
         style={{ paddingTop: "60px" }}
       >
-        <img
-          src="https://ducketh.fun/assets/images/nft/e-twite1.png"
-          alt="Image 1"
-        />
-        <img
-          src="https://ducketh.fun/assets/images/nft/e-twite2.png"
-          alt="Image 2"
-        />
+        <img src={ETweet1} alt="Image 1" />
+        <img src={ETweet2} alt="Image 2" />
       </div>
       <GetStarted />
       <ItemDetail />

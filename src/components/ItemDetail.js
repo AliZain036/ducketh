@@ -1,4 +1,5 @@
 import React from "react"
+import tokenomicsimage from "../assets/images/tokenomicsimage.png"
 
 const ItemDetail = () => {
   return (
@@ -8,11 +9,7 @@ const ItemDetail = () => {
           <div class="row">
             <div class="col-lg-6 col-md-12">
               <div class="tf-item-detail-image">
-                <img
-                  src="	https://ducketh.fun/assets/images/tokenomicsimage.png"
-                  alt="Image"
-                  class="ani5"
-                />
+                <img src={tokenomicsimage} alt="Image" class="ani5" />
               </div>
             </div>
             <div class="col-lg-6 col-md-12">
@@ -45,7 +42,7 @@ const ItemDetail = () => {
                     class="tf-button opensea"
                   >
                     {/* <i class="fa-regular fa-bag-shopping"></i> */}
-                     BUY NOW
+                    BUY NOW
                   </a>
                   <div class="group-btn">
                     <button

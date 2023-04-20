@@ -1,4 +1,6 @@
 import React from "react"
+import Check from "../assets/images/check.png"
+import DetailImage from "../assets/images/detailimage.png"
 
 const Roadmap = () => {
   return (
@@ -31,64 +33,43 @@ const Roadmap = () => {
                     <ul className="p-0 list-infor">
                       <li>
                         <div className="icon">
-                          <img
-                            src="https://ducketh.fun/assets/images/check.png"
-                            alt=""
-                          />
+                          <img src={Check} alt="" />
                         </div>
                         Website Development
                       </li>
                       <li>
                         <div className="icon">
-                          <img
-                            src="https://ducketh.fun/assets/images/check.png"
-                            alt=""
-                          />
+                          <img src={Check} alt="" />
                         </div>
                         Social Media Designs
                       </li>
                       <li>
                         <div className="icon">
-                          <img
-                            src="https://ducketh.fun/assets/images/check.png"
-                            alt=""
-                          />
+                          <img src={Check} alt="" />
                         </div>
                         Launch Marketing
                       </li>
                       <li>
                         <div className="icon">
-                          <img
-                            src="https://ducketh.fun/assets/images/check.png"
-                            alt=""
-                          />
+                          <img src={Check} alt="" />
                         </div>
                         Fair Launch on uniswap
                       </li>
                       <li>
                         <div className="icon">
-                          <img
-                            src="https://ducketh.fun/assets/images/check.png"
-                            alt=""
-                          />
+                          <img src={Check} alt="" />
                         </div>
                         CEX Listing (P2B exchange)
                       </li>
                       <li>
                         <div className="icon">
-                          <img
-                            src="https://ducketh.fun/assets/images/check.png"
-                            alt=""
-                          />
+                          <img src={Check} alt="" />
                         </div>
                         1000 Holders Target
                       </li>
                       <li>
                         <div className="icon">
-                          <img
-                            src="https://ducketh.fun/assets/images/check.png"
-                            alt=""
-                          />
+                          <img src={Check} alt="" />
                         </div>
                         CMC and CG Listing
                       </li>
@@ -143,64 +124,43 @@ const Roadmap = () => {
                     <ul className="p-0 list-infor">
                       <li>
                         <div className="icon">
-                          <img
-                            src="https://ducketh.fun/assets/images/check.png"
-                            alt=""
-                          />
+                          <img src={Check} alt="" />
                         </div>
                         DUCK SWAP Development
                       </li>
                       <li>
                         <div className="icon">
-                          <img
-                            src="https://ducketh.fun/assets/images/check.png"
-                            alt=""
-                          />
+                          <img src={Check} alt="" />
                         </div>
                         Whitepaper
                       </li>
                       <li>
                         <div className="icon">
-                          <img
-                            src="https://ducketh.fun/assets/images/check.png"
-                            alt=""
-                          />
+                          <img src={Check} alt="" />
                         </div>
                         NFT Collection Development
                       </li>
                       <li>
                         <div className="icon">
-                          <img
-                            src="https://ducketh.fun/assets/images/detailimage.png"
-                            alt=""
-                          />
+                          <img src={DetailImage} alt="" />
                         </div>
                         Audit
                       </li>
                       <li>
                         <div className="icon">
-                          <img
-                            src="https://ducketh.fun/assets/images/detailimage.png"
-                            alt=""
-                          />
+                          <img src={DetailImage} alt="" />
                         </div>
                         Marketing
                       </li>
                       <li>
                         <div className="icon">
-                          <img
-                            src="https://ducketh.fun/assets/images/detailimage.png"
-                            alt=""
-                          />
+                          <img src={DetailImage} alt="" />
                         </div>
                         10,000 Holders Target
                       </li>
                       <li>
                         <div className="icon">
-                          <img
-                            src="https://ducketh.fun/assets/images/detailimage.png"
-                            alt=""
-                          />
+                          <img src={DetailImage} alt="" />
                         </div>
                         Governance Voting Dapp
                       </li>
@@ -253,46 +213,31 @@ const Roadmap = () => {
                     <ul className="p-0 list-infor">
                       <li>
                         <div className="icon">
-                          <img
-                            src="	https://ducketh.fun/assets/images/detailimage.png"
-                            alt=""
-                          />
+                          <img src={DetailImage} alt="" />
                         </div>
                         Partnerships
                       </li>
                       <li>
                         <div className="icon">
-                          <img
-                            src="	https://ducketh.fun/assets/images/detailimage.png"
-                            alt=""
-                          />
+                          <img src={DetailImage} alt="" />
                         </div>
                         Multiple CEX Listings
                       </li>
                       <li>
                         <div className="icon">
-                          <img
-                            src="	https://ducketh.fun/assets/images/detailimage.png"
-                            alt=""
-                          />
+                          <img src={DetailImage} alt="" />
                         </div>
                         DUCK SWAP Beta Release
                       </li>
                       <li>
                         <div className="icon">
-                          <img
-                            src="	https://ducketh.fun/assets/images/detailimage.png"
-                            alt=""
-                          />
+                          <img src={DetailImage} alt="" />
                         </div>
                         Game Development
                       </li>
                       <li>
                         <div className="icon">
-                          <img
-                            src="	https://ducketh.fun/assets/images/detailimage.png"
-                            alt=""
-                          />
+                          <img src={DetailImage} alt="" />
                         </div>
                         New York Time Square Billboards
                       </li>

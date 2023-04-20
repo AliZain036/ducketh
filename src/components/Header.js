@@ -1,4 +1,7 @@
 import React, { useState } from "react"
+import logo from "../assets/images/logo.png"
+import sun from "../assets/images/sun.png"
+import moon from "../assets/images/moon.png"
 
 const Header = () => {
   const [isMobileButtonActive, setIsMobileButtonActive] = useState(false)
@@ -13,11 +16,7 @@ const Header = () => {
                 <div id="site-logo" className="clearfix">
                   <div id="site-logo-inner">
                     <a href="index.html" rel="home" className="main-logo">
-                      <img
-                        id="logo_header"
-                        src="https://ducketh.fun/assets/images/logo/logo.png"
-                        alt="Image"
-                      />
+                      <img id="logo_header" src={logo} alt="Image" />
                     </a>
                   </div>
                 </div>
@@ -60,18 +59,10 @@ const Header = () => {
                       onClick={() => setIsDarkModeEnabled((prev) => !prev)}
                     >
                       {isDarkModeEnabled === false && (
-                        <img
-                          id="img-mode"
-                          src="https://ducketh.fun/assets/images/icon/moon.png"
-                          alt="Image"
-                        />
+                        <img id="img-mode" src={moon} alt="Image" />
                       )}
                       {isDarkModeEnabled === true && (
-                        <img
-                          id="img-mode"
-                          src="https://ducketh.fun/assets/images/icon/sun.png"
-                          alt="Image"
-                        />
+                        <img id="img-mode" src={sun} alt="Image" />
                       )}
                     </a>
                     <div className="group-2"></div>

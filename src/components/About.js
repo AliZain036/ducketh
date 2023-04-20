@@ -1,4 +1,5 @@
 import React from "react"
+import swap from "../assets/images/swap.png"
 
 const About = () => {
   return (
@@ -39,10 +40,7 @@ const About = () => {
               </div>
             </div>
             <div class="col-lg-6 col-md-12">
-              <img
-                src="https://ducketh.fun/assets/images/swap.png"
-                class="ani4"
-              />
+              <img src={swap} class="ani4" />
             </div>
             <h2 class="heading col-12 col-xxl-2" id="features-heading">
               Features
